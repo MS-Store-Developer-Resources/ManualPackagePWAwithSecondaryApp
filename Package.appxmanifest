@@ -11,15 +11,15 @@
   IgnorableNamespaces="uap mp rescap">
 
   <Identity
-    Name="31ac4375-f2c2-42ff-85a7-e6d616af663f"
-    Publisher="CN=JuanMontilla"
-    Version="1.0.0.0" />
+    Name="kanban-creators.testmsix"
+    Publisher="CN=01881B5E-2F08-4814-ACF4-EA5CDD66BDF9"
+    Version="1.0.4.0" />
 
-  <mp:PhoneIdentity PhoneProductId="31ac4375-f2c2-42ff-85a7-e6d616af663f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="ed21b57c-1d5f-41cb-a0cc-20c05af4024a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>ManualPackagePWA</DisplayName>
-    <PublisherDisplayName>JuanMontilla</PublisherDisplayName>
+    <DisplayName>test msix</DisplayName>
+    <PublisherDisplayName>kanban-creators</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -36,7 +36,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="ManualPackagePWA.App">
       <uap:VisualElements
-        DisplayName="ManualPackagePWA"
+        DisplayName="test msix"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="ManualPackagePWA"
@@ -53,8 +53,10 @@
 			BackgroundColor="#464646"
 			DisplayName="app2"
 			Square150x150Logo="images\msix_logo_150x150.png"
-			Square44x44Logo="images\msix_logo_40x40.png"
-			Description="secondary app" />
+			Square44x44Logo="images\msix_logo_44x44.png"
+			Description="secondary app" >
+		   <uap:DefaultTile/>
+		  </uap:VisualElements>
 	  </Application>
   </Applications>
 
